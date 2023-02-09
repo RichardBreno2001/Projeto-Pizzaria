@@ -12,7 +12,7 @@
     <header>
         <img src="imagens/pizzalogo.png" alt="LogoPizza" class="logo">
         <h1>PizzariaBrasa</h1>
-        <i class="bi bi-list" id="hamb"></i>
+        <i class="bi bi-list" id="hamb" onclick="clicar()"></i>
         <nav class="menu">
             <ul>
                 <li><a href="#">HOME</a></li>
@@ -21,7 +21,7 @@
                 <li><a href="#">LOCALIZAÇÕES</a></li>
             </ul>
         </nav>
-        <nav class="MenuCelular">
+        <nav class="MenuCelular" id="menu-js">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">CONTATOS</a></li>
@@ -32,6 +32,16 @@
                 <li><i class="bi bi-cart4" id="icone"></i></li>
             </ul>
         </nav>
+        <script>
+            let MenuH = window.document.querySelector('nav#menu-js')
+            function clicar(){
+                if(MenuH.style.display == 'block') {
+                    MenuH.style.display = 'none'
+                } else {
+                    MenuH.style.display = 'block'
+                }
+            }
+        </script>
     </header>
     <main>
         <section id="bloco-1">
@@ -40,8 +50,8 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, architecto dolor porro soluta enim fuga ad fugit cons.</p>
             </div>
             <div class="caixa-btns">
-                <input type="button" class="botao" value="teste">
-                <input type="button" class="botao" value="teste">
+                <input type="button" class="botao" value="Comprar pizza">
+                <input type="button" class="botao" value="Montar pizza">
             </div>
         </section>
     </main>

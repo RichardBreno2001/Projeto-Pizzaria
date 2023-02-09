@@ -26,8 +26,8 @@ header > nav > ul > li {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -37,16 +37,15 @@ header > nav > ul > li {
 
 
 .MenuCelular {
-    background-color: #D9C03B;
+    background-color: white;
     position: absolute;
     top: 100px;
     right: 0px;
     height: 350px;
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    display: none;
 }
 .MenuCelular > ul {
     display: flex;
@@ -96,8 +95,10 @@ header > nav > ul > li {
 /* LOGO MENU HAMBURGUER */
 
 #hamb {
-    font-size: 1.7em;
     color: white;
+    cursor: pointer;
+    font-size: 1.9em;
+    
 }
 
 
@@ -136,10 +137,27 @@ header > nav > ul > li {
 }
 
 .caixa-btns {
-    background-color: blue;
-    height: 150px;
+    height: 250px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.botao {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.7em;
+    background-color: #d9c13bb5;
+    border-style: none;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.botao:active {
+    background-color: #9a8929b5 ;
 }
 
 /* FONTES */
