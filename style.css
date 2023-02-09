@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(222, 47, 47);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header > h1 {
+    color: white;
+    font-size: 2em;
+}
+header > nav > ul > li {
+    list-style-type: none;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+/*MENU DO CELULAR */
+
+
+
+
+.MenuCelular {
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    right: 5px;
+    height: 300px;
+    width: 150px;
+}
+.MenuCelular > ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.MenuCelular > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1em;
+    border-style: solid;
+    border-width: auto;
+    border-color: black;
+    padding: 5px;
+
+}
+
+
+
+
+/* Fim MENU DO CELULAR */
+
+
+.menu {
+    display: none;
+}
+
+/* LOGO MENU HAMBURGUER */
+
+#hamb {
+    font-size: 1.7em;
+    color: white;
+}
