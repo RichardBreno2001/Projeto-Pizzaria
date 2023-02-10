@@ -608,14 +608,14 @@ footer > h4 {
         width: 100px;
     }
 
+    /* BLOCO-1 */
+
+    
+
     .caixa-infos {
         padding-top: 50px;
     }
 
-    .caixa-infos > h2 {
-        font-size: 2.5em;
-        cursor: pointer;
-    }
     .caixa-infos > p {
         font-size: 1.5em;
         width: 500px;
@@ -638,6 +638,7 @@ footer > h4 {
         width: 500px;
         display: block;
         margin: auto;
+        cursor: pointer;
     }
 
     /* BLOCO-2 */
@@ -725,3 +726,160 @@ footer > h4 {
 
 }
 
+/* BREAKPOINT TV */
+
+
+@media screen and (min-width:1200px) {
+    header > h1 {
+        font-size: 3em;
+    }
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+    #hamb {
+        display: none;
+    }
+    .menu {
+        display: block;
+        height: 100%;       
+    }
+    .menu > ul {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        height: 100%;
+    }
+    .menu > ul > li {
+        list-style-type: none;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu > ul > li > a {
+        color: white;
+        font-size: 1.4em;
+        text-decoration: none;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    .menu > ul > li > a:hover {
+        background-color: #b42525da;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: white;
+        transition: all 0.1s ease-in;
+    }
+
+
+
+    /* BLOCO-1 */
+    .caixa-infos{
+        row-gap: 15px;
+        margin-bottom: 70px;
+    }
+    .caixa-infos > h2 {
+        width: 700px;
+        font-size: 3em;
+    }
+
+    .caixa-infos > p {
+        font-size: 1.7em;
+        width: 700px;
+    }
+    #bloco-1 {
+        height: 100vh;
+    }
+
+    .botao {
+        width: 400px;
+        height: 100px;
+        cursor: pointer;
+        font-size: 2em;
+        font-variant: small-caps;
+        background-color: #D9C03B;
+        transition: all 0.1s ease-in;
+    }
+    .botao:hover {
+        background-color: #f4d940;
+        box-shadow: 3px 3px 3px rgba(253, 253, 253, 0.549);
+    }
+    .caixa-btns {
+        row-gap: 40px;
+    }
+
+
+    /* FIM BLOCO-1 */
+
+
+    /* BLOCO-2 */
+
+    .caixa-infos-2 > h3 {
+        font-size: 3em;
+        color: rgb(200, 199, 199);
+    }
+    .caixa-infos-2 > p {
+        font-size: 2em;
+        color: gray;
+    }
+
+
+
+    /* BLOCO-3 */
+
+    .gifpizza {
+        width: 600px;
+        height: 300px;
+        border-color: #006536;
+    }
+    .cardápio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+
+    .pizza {
+        width: 380px;
+        height: 400px;
+        margin-top: 20px;
+        transition: width 1.2s, height 1s;
+    }
+    #ultimo {
+        margin-bottom: 0px;
+    }
+    .comprar {
+        width: 200px;
+        cursor: pointer;
+    }
+    table > tbody > tr > td {
+        font-size: 1.3em;
+    }
+
+    /* FIM BLOCO-3 */
+
+
+    /* BLOCO-4 */
+
+    #cont > h3 {
+        color: white;
+        font-family:  'Cookie', cursive;
+        font-size: 5em;
+        text-align: center;
+    }
+    
+    #cont > a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.3em;
+    }
+
+
+
+    /* FIM BLOCO-4 */
+
+
+}
