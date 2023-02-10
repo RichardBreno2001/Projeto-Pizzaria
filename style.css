@@ -452,9 +452,13 @@ footer > h4 {
 
     /* BLOCO-2 */
 
+    .caixa-infos-2 > p {
+        margin-bottom: 10px;
+    }
+
     .gifpizza {
-        height: 400px;
-        width: 500px;
+        height: 500px;
+        width: 400px;
         transition: width 1s, height 1s;
         border-color: #006536;
     }
@@ -546,11 +550,10 @@ footer > h4 {
         position: sticky;
         top: 0px;
     }
-
     header > h1 {
-        font-size: 1.8em;
-        letter-spacing: 10px;
+        cursor: pointer;
     }
+
 
     .logo {
         height: 100px;
@@ -567,7 +570,7 @@ footer > h4 {
     .menu > ul {
         display: flex;
         flex-direction: row;
-        column-gap: 10px;
+        column-gap: 15px;
         height: 100%;
     }
     .menu > ul > li {
@@ -638,10 +641,13 @@ footer > h4 {
     }
 
     /* BLOCO-2 */
+    .caixa-infos-2 > p {
+        margin-bottom: 15px;
+    }
 
     .gifpizza {
-        height: 480px;
-        width: 600px;
+        height: 500px;
+        width: 400px;
         transition: width 1s, height 1s;
         border-color: #006536;
         margin: auto;
