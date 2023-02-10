@@ -514,3 +514,158 @@ footer > h4 {
 
 }
 
+
+/* BREAKPOINT DESKTOP */
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    header {
+        background-color: rgb(222, 47, 47);
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0px;
+    }
+
+    header > h1 {
+        font-size: 1.8em;
+        letter-spacing: 10px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+    #hamb {
+        font-size: 2.8em;
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu > ul {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+    .menu > ul > li {
+        list-style-type: none;
+    }
+    .menu > ul > li > a {
+        color: white;
+        font-size: 1.4em;
+        text-decoration: none;
+    }
+
+    .MenuCelular {
+        height: 400px;
+        width: 300px;
+        display: none;
+    }
+    .MenuCelular > ul > li > a {
+        font-size: 1.5em;
+    }
+    #icone {
+        font-size: 1.8em;
+        width: 100px;
+    }
+
+    .caixa-infos > h2 {
+        font-size: 2.5em;
+    }
+    .caixa-infos > p {
+        font-size: 1.2em;
+        width: 500px;
+        display: block;
+        margin: auto;
+    }
+    .botao {
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    /* BLOCO-2 */
+
+    .gifpizza {
+        height: 400px;
+        width: 500px;
+        transition: width 1s, height 1s;
+        border-color: #006536;
+    }
+
+
+    /* FIM BLOCO-2 */ 
+
+
+    /* BLOCO-3 */
+
+    .cardápio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+
+    .pizza {
+        width: 380px;
+        height: 400px;
+        margin-top: 20px;
+        transition: width 1.2s, height 1s;
+    }
+    #ultimo {
+        margin-bottom: 0px;
+    }
+    .comprar {
+        width: 200px;
+    }
+    table > tbody > tr > td {
+        font-size: 1.2em;
+    }
+
+    /* FIM BLOCO-3 */
+
+    /* BLOCO-4 */
+
+    #cont > h3 {
+        color: white;
+        font-family:  'Cookie', cursive;
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    #cont > a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.8em;
+    }
+
+    /* FIM BLOCO-4 */
+
+
+    /* FOOTER */
+
+    footer {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > h4 {
+        color: white;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-size: 1.4em;
+    }
+
+}
+
