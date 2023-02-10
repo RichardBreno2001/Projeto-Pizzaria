@@ -115,7 +115,7 @@ header > nav > ul > li {
 #bloco-1 {
     background-color: red;
     height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.481)),url('imagens/Pizza-Celular.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)),url('imagens/Pizza-Celular.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
