@@ -142,12 +142,14 @@ header > nav > ul > li {
 }
 
 .caixa-infos > p {
-    color: white;
+    color: rgb(172, 171, 171);
     text-align: center;
     font-size: 1.2em;
     width: 355px;
     display: block;
     margin: auto;
+    font-variant: small-caps;
+    letter-spacing: 3px;
 }
 
 .caixa-btns {
@@ -614,7 +616,7 @@ footer > h4 {
     
 
     .caixa-infos {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .caixa-infos > p {
