@@ -232,9 +232,10 @@ header > nav > ul > li {
     width: 100%;
     height:auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
 
 }
 
