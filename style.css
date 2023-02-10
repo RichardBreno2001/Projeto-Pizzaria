@@ -681,6 +681,7 @@ footer > h4 {
     }
     .comprar {
         width: 200px;
+        cursor: pointer;
     }
     table > tbody > tr > td {
         font-size: 1.2em;
