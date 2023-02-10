@@ -387,3 +387,83 @@ footer > h4 {
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
+
+/* BREAKPOINS */
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    header > h1 {
+        font-size: 1.8em;
+        letter-spacing: 10px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+    #hamb {
+        font-size: 2.8em;
+    }
+
+    .MenuCelular {
+        height: 400px;
+        width: 300px;
+    }
+    .MenuCelular > ul > li > a {
+        font-size: 1.5em;
+    }
+    #icone {
+        font-size: 1.8em;
+        width: 100px;
+    }
+
+    .caixa-infos > h2 {
+        font-size: 2.5em;
+    }
+    .caixa-infos > p {
+        font-size: 1.2em;
+        width: 500px;
+        display: block;
+        margin: auto;
+    }
+    .botao {
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    /* BLOCO-2 */
+
+    .gifpizza {
+        height: 400px;
+        width: 500px;
+        transition: width 1s, height 1s;
+    }
+
+
+    /* FIM BLOCO-2 */ 
+
+
+    /* BLOCO-3 */
+
+    .cardápio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+
+    .pizza {
+        width: 380px;
+        height: 400px;
+        margin-top: 20px;
+        transition: width 1.2s, height 1s;
+    }
+    #ultimo {
+        margin-bottom: 0px;
+    }
+
+}
