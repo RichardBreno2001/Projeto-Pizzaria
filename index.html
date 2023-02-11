@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body onresize="monitorar()">
     <header>
         <img src="imagens/pizzalogo.png" alt="LogoPizza" class="logo">
         <h1>PizzariaBrasa</h1>
@@ -44,6 +44,13 @@
                     MenuH.style.display = 'block'
                 }
             }
+
+            function monitorar() {
+                if(window.innerWidth >= '992') {
+                    MenuH.style.display = 'none'
+                }
+             }
+
         </script>
     </header>
     <main>
