@@ -209,6 +209,8 @@ header > nav > ul > li {
     padding: 10px;
     margin-bottom: 50px;
     font-size: 1.2em;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .gifpizza {
